@@ -15,7 +15,7 @@ function App() {
   useEffect(()=> {
     const fetchData = async() => {
         try {
-            const response = await axios.get('http://localhost:8080');
+            const response = await axios.get('https://user-app-ypq8.onrender.com');
             dispatch(getUser(response.data));
         } catch(err) {
             console.log(err)
