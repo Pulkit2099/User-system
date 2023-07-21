@@ -10,7 +10,7 @@ function Users() {
 
   const handleDelete = (id) => {
     axios
-      .delete("http://localhost:8080/deleteuser/" + id)
+      .delete("https://user-app-ypq8.onrender.com/deleteuser/" + id)
       .then((res) => {
         dispatch(deleteUser({ id }));
       })
