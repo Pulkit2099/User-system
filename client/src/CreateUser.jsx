@@ -36,7 +36,7 @@ function CreateUser() {
 
     // If all validations pass, proceed with form submission
     axios
-      .post("http://localhost:8080/create", { name, email, phone })
+      .post("https://user-app-ypq8.onrender.com/create", { name, email, phone })
       .then((res) => {
         dispatch(addUser(res.data));
         navigate("/");
