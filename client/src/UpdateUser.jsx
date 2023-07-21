@@ -34,7 +34,7 @@ function UpdateUser() {
 
     // If all validations pass, proceed with form submission
     axios
-      .put("http://localhost:8080/update/" + id, { name, email, phone })
+      .put("https://user-app-ypq8.onrender.com/update/" + id, { name, email, phone })
       .then((res) => {
         dispatch(updateUser({ id, name, email, phone }));
         setIsUpdateSuccess(true); // Set the success message state to true
