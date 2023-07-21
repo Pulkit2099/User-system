@@ -1,5 +1,5 @@
 # User-system
-using mern stack using redux 
+using mern stack using redux .
 
 
 1)OPEN SERVER FOLDER INDEX.JS FILE ENTER THE COMMAND "NPM START "    THEN THE BACKEND GOES RUNS..
